@@ -41,6 +41,89 @@ html {
   margin-left: 5%;
 }
 
+.research_banner_format{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0%;
+}
+
+
+#research_banner_format11{
+    text-align: left;
+	display: flex;
+	flex-direction: row;
+    margin-left: 5%;
+    font-size: 2.5em; 
+    object-position: bottom
+    color: white;
+/*    min-width: 500em*/
+    font-weight: bold;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+/*
+pic1{
+    max-height: 450px;
+    width:100%;  you can use % 
+    object-fit: contain;
+
+}
+*/
+
+
+div.transbox0 {
+  margin: 0px;
+/*  background-color: #ffffff;*/
+/*  opacity: 0.6;*/
+  background: rgba(0, 0, 0, .7);
+/*  filter: alpha(opacity=30);  For IE8 and earlier */
+    size: 100%
+}
+
+div.transbox1 {
+  margin: 0px;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+/*  filter: alpha(opacity=30);  For IE8 and earlier */
+    size: 100%
+}
+
+#research_banner_format12{
+    text-align: left;
+	display: flex;
+	flex-direction: row;
+	margin-left: 0%;
+    margin-left: 5%;
+    font-size: 1.5em; 
+    color: white;
+/*    opacity: 1;*/
+    font-weight: normal;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+#research_banner_format21{
+    text-align: left;
+	display: flex;
+	flex-direction: row;
+	margin-left: 5%;
+    font-size: 1.7em; 
+    opacity: 1;
+    color: white;
+    font-weight: bold;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+#research_banner_format22{
+    opacity: 1;
+    text-align: left;
+	display: flex;
+	flex-direction: row;
+	margin-left: 5%;
+    font-size: 1.5em; 
+    color: white;
+    font-weight: normal;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
 #nav2 .right-div ul{
   display: flex;
   flex-direction: row;
@@ -61,6 +144,7 @@ html {
 .left-div{
   display: flex;
   flex-direction: row;
+  
 }
 
 #logo_text{
@@ -105,7 +189,9 @@ a{
 .avl-points{
   display: flex;
   flex-direction: row;
+  margin-left: 5%;
 }
+
 .avl-points #left p, .avl-points #left li{
   font-size: 1.5rem;
   color: grey;
@@ -264,6 +350,11 @@ a{
   height: 140px;
   width: 100px;
 }
+
+/* .carousel-caption d-none d-md-block{ */
+  /* margin-left: 10%; */
+  /* width: 80%;	 */
+/* } */
 
 #journals ul{
   margin-left: 10%;
